@@ -1,6 +1,6 @@
 resource "random_password" "password" { #A
   length           = 16
-  special          = true
+  special          = false
   override_special = "_%@/'\""
 }
 
